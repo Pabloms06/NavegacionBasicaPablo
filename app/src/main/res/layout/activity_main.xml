@@ -1,33 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#FB8787">
+
+    <Button
+        android:id="@+id/boton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="boton 1"
+        android:textSize="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341"/>
+
 
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="130dp"
-        android:layout_height="60dp"
-        android:text="@string/bot_n_1"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="223dp" />
+        android:id="@+id/boton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="boton 2"
+        android:textSize="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473"/>
+
+
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="110dp"
-        android:layout_height="62dp"
-        android:text="@string/bot_n_2"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="223dp" />
+        android:id="@+id/boton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="boton 3"
+        android:textSize="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606"/>
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="108dp"
-        android:layout_height="60dp"
-        android:text="@string/bot_n_3"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="452dp" />
+    <EditText
+        android:id="@+id/textoedit"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:text="@string/aplicaci_n"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="42dp"
+        tools:ignore="MissingConstraints" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
